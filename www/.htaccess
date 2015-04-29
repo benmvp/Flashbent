@@ -10,3 +10,6 @@ RewriteRule ^(.+?)/?$ $1.php [L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.php [L]
+
+# forward main home page to interiors for now
+RewriteRule ^index.php interiors/index.php [L]

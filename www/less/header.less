@@ -1,0 +1,24 @@
+.header {
+	margin-bottom:1em;
+}
+.header-logo {
+	background:black;
+	height:100px;
+	margin:0 auto 1em;
+	text-align:center;
+	width:250px;
+	
+	@media @desktop {
+		display:inline-block;
+		margin:0;
+	}
+}
+.header-nav {
+	background:yellow;
+	height:100px;
+	
+	@media @desktop {
+		display:inline-block;
+		width:calc(~"100% - 250px");
+	}
+}
