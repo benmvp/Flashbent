@@ -1,15 +1,8 @@
+DirectoryIndex index.php
+
 RewriteEngine On
 
-# first try to find a .php file
+# resolve .php file for extensionless php urls
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.+?)/?$ $1.php [L]
-
-# not found then forward to /index.php
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ index.php [L]
-
-# forward main home page to interiors for now
-RewriteRule ^index.php interiors/index.php [L]

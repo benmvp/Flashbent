@@ -1,0 +1,38 @@
+@import "vars";
+
+.footer {
+	background:#f5f4f0;
+	border-top:15px solid #e4e4e4;
+	color:#999;
+	display:flex;
+	flex-direction:column;
+	margin-top:@gutterLarge;
+	padding:@gutterNormal;
+	text-align:center;
+	
+	@media @desktop {
+		flex-direction:row;
+		text-align:left;
+	}
+}
+.footer-about {
+	
+	@media @desktop {
+		flex:1;
+		padding-right:@gutterLarge;
+	}
+}
+.footer-aboutDesc {
+	max-width:600px;
+}
+.footer-contact {
+	
+	@media @desktop {
+		border-left:3px solid #e4e4e4;
+		flex:0 0 200px;
+		padding-left:@gutterLarge;
+	}
+}
+.footer-contactinfo {
+	padding:@gutterSmall 0;	
+}
