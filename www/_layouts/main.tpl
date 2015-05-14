@@ -22,24 +22,24 @@
 		<div id="page">
 			<header id="header" class="header">
 				<a href="/">
-					<img class="header-logo" src="/assets/flashbent-logo-header.png" />
+					<img class="header-logo" src="/assets/flashbent-logo-header.png" alt="Flashbent logo" />
 				</a><nav class="header-nav">
 					<ul class="header-navList">
-						<li class="header-navListItem"><a href="/interiors">INTERIORS</a>
+						<li class="header-navListItem{if $navListItem == 'interiors'} header-navListItemActive{/if}"><a href="/interiors">INTERIORS</a>
 							<ul class="header-subnavList">
-								<li class="header-subnavListItem header-subnavListItemActive"><a href="/interiors">Overview</a></li>
-								<li class="header-subnavListItem"><a href="/interiors/services">Services</a></li>
-								<li class="header-subnavListItem"><a href="/interiors/portfolio">Portfolio</a></li>
+								<li class="header-subnavListItem{if !isset($subnavListItem) || $subnavListItem == ''} header-subnavListItemActive{/if}"><a href="/interiors">Overview</a></li>
+								<li class="header-subnavListItem{if $subnavListItem == 'portfolio'} header-subnavListItemActive{/if}"><a href="/interiors/portfolio">Portfolio</a></li>
+								<li class="header-subnavListItem{if $subnavListItem == 'packages'} header-subnavListItemActive{/if}"><a href="/interiors/packages">Packages</a></li>
 							</ul>
 						</li>
-						<li class="header-navListItem"><a href="/events">EVENTS</a></li>
-						<li class="header-navListItem"><a href="/shoppes">SHOPPES</a></li>
-						<li class="header-navListItem"><a href="http://blog.flashbent.com/">BLOG</a></li>
-						<li class="header-navListItem"><a href="/about">ABOUT</a>
+						<li class="header-navListItem{if $navListItem == 'events'} header-navListItemActive{/if}"><a href="/events">EVENTS</a></li>
+						<li class="header-navListItem{if $navListItem == 'shoppes'} header-navListItemActive{/if}"><a href="/shoppes">SHOPPES</a></li>
+						<li class="header-navListItem{if $navListItem == 'blog'} header-navListItemActive{/if}"><a href="http://blog.flashbent.com/">BLOG</a></li>
+						<li class="header-navListItem{if $navListItem == 'about'} header-navListItemActive{/if}"><a href="/about">ABOUT</a>
 							<ul class="header-subnavList">
-								<li class="header-subnavListItem"><a href="/about">Mission</a></li>
-								<li class="header-subnavListItem"><a href="/team">Team</a></li>
-								<li class="header-subnavListItem"><a href="/contact">Contact</a></li>
+								<li class="header-subnavListItem{if !isset($subnavListItem) || $subnavListItem == ''} header-subnavListItemActive{/if}"><a href="/about">Mission</a></li>
+								<li class="header-subnavListItem{if $subnavListItem == 'team'} header-subnavListItemActive{/if}"><a href="/team">Team</a></li>
+								<li class="header-subnavListItem{if $subnavListItem == 'contact'} header-subnavListItemActive{/if}"><a href="/contact">Contact</a></li>
 							</ul>
 						</li>
 					</ul>

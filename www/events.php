@@ -9,7 +9,8 @@
 		'events.tpl',
 		array(
 			'headTitle' => 'Events | Flashbent',
-			'canonicalUrl' => \Utils\Url::siteUrl('events')
+			'canonicalUrl' => \Utils\Url::siteUrl('events'),
+			'navListItem' => 'events'
 		)
 	)
 ?>

@@ -1,0 +1,48 @@
+@import "vars";
+
+.aboutSection {
+	@media @desktop {
+		display:flex;
+	}	
+}
+.aboutSection-image {
+	margin:0 0 @gutterNormal;
+	width:200px;
+	height:215px;
+	
+	// remove
+	background:#ddd;
+	
+	@media @desktop {
+		flex:0 0 200px;
+		margin:0 @gutterNormal 0 0;
+	}
+}
+.aboutSection-message {
+	margin:0 0 @gutterLarge;	
+}
+.aboutSection-verseShell {
+	margin:0 auto;
+	max-width:600px;
+	width:80%;
+}
+.aboutSection-verse {
+	border-left:10px solid @flashbentOrange;
+	font-size:@fontSizeLarge;
+	font-style:italic;
+	margin:0;
+	padding-left:10px;
+	quotes:"\201C""\201D""\2018""\2019";
+	text-align:justify;
+}
+.aboutSection-verse:before {
+	color:@flashbentOrange;
+	content:open-quote;
+	font-size:@fontSizeH3;
+	margin-right:@gutterTiny;
+}
+.aboutSection-verseLink {
+	display:block;
+	font-variant:small-caps;
+	text-align:right;
+}

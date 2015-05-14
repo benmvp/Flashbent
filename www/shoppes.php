@@ -9,7 +9,8 @@
 		'shoppes.tpl',
 		array(
 			'headTitle' => 'Shoppes | Flashbent',
-			'canonicalUrl' => \Utils\Url::siteUrl('shoppes')
+			'canonicalUrl' => \Utils\Url::siteUrl('shoppes'),
+			'navListItem' => 'shoppes'
 		)
 	)
 ?>

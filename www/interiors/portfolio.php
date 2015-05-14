@@ -6,12 +6,12 @@
 	require_once($documentRoot . '/_libs/Utils/Url.class.php');
 	
 	\Utils\Template::render(
-		'team.tpl',
+		'portfolio.tpl',
 		array(
-			'headTitle' => 'Team | Flashbent',
-			'canonicalUrl' => \Utils\Url::siteUrl('team'),
-			'navListItem' => 'about',
-			'subnavListItem' => 'team'
+			'headTitle' => 'Interior Design Portfolio | Flashbent',
+			'canonicalUrl' => \Utils\Url::siteUrl('interiors/portfolio'),
+			'navListItem' => 'interiors',
+			'subnavListItem' => 'portfolio'
 		)
 	)
 ?>

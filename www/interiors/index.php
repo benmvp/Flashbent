@@ -9,7 +9,8 @@
 		'index.tpl',
 		array(
 			'headTitle' => 'Flashbent Interiors | San Francisco Bay Area Interior Designer',
-			'canonicalUrl' => \Utils\Url::siteUrl('interiors')
+			'canonicalUrl' => \Utils\Url::siteUrl('interiors'),
+			'navListItem' => 'interiors'
 		)
 	)
 ?>

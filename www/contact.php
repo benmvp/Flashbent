@@ -9,7 +9,9 @@
 		'contact.tpl',
 		array(
 			'headTitle' => 'Contact | Flashbent',
-			'canonicalUrl' => \Utils\Url::siteUrl('contact')
+			'canonicalUrl' => \Utils\Url::siteUrl('contact'),
+			'navListItem' => 'about',
+			'subnavListItem' => 'contact'
 		)
 	)
 ?>

@@ -1,1 +1,48 @@
 @import "../vars";
+
+.serviceSection-headerShell {
+	display:flex;
+	align-items:center;
+}
+.serviceSection-header {
+	flex-shrink:0;
+	margin:0 @gutterSmall 0 0;
+}
+.serviceSection-bar {
+	background:@flashbentOrange;
+	height:10px;
+	width:100%;
+}
+
+.serviceSection-commercial {
+	margin-top:@gutterLarge;	
+}
+.serviceSection-body {
+	font-size:@fontSizeSmall;
+	
+	@media @desktop {
+		display:flex;
+		margin:@gutterSmall @gutterNormal;
+	}
+}
+.serviceSection-image {
+	height:200px;
+	flex:0 0 350px;
+	margin:0 0 @gutterNormal 0;
+	
+	// remove
+	background:#ddd;
+	
+	@media @desktop {
+		margin:0 @gutterNormal 0 0;
+	}
+}
+.serviceSection-contentList {
+	line-height:150%;
+	
+	@media @desktop {
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
+}

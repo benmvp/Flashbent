@@ -9,7 +9,8 @@
 		'about.tpl',
 		array(
 			'headTitle' => 'About Flashbent',
-			'canonicalUrl' => \Utils\Url::siteUrl('about')
+			'canonicalUrl' => \Utils\Url::siteUrl('about'),
+			'navListItem' => 'about'
 		)
 	)
 ?>
