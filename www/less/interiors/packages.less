@@ -1,0 +1,45 @@
+@import "../vars";
+
+.packageSection {
+	margin-bottom:@gutterLarge;	
+}
+.packageSection-headerShell {
+	display:flex;
+	align-items:center;
+}
+.packageSection-header {
+	flex-shrink:0;
+	margin:0 @gutterSmall 0 0;
+}
+.packageSection-bar {
+	background:@flashbentOrange;
+	height:10px;
+	width:100%;
+}
+.packageSection-body {
+	@media @desktop {
+		display:flex;
+		margin:@gutterSmall @gutterNormal;
+	}
+}
+.packageSection-image {
+	height:200px;
+	flex:0 0 350px;
+	margin:0 0 @gutterNormal 0;
+	
+	// remove
+	background:#ddd;
+	
+	@media @desktop {
+		margin:0 @gutterNormal 0 0;
+	}
+}
+.packageSection-contentList {
+	line-height:150%;
+	
+	@media @desktop {
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
+}

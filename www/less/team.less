@@ -1,0 +1,27 @@
+@import "vars";
+
+.teamSection {
+	margin-bottom:@gutterLarge;
+	
+	@media @desktop {
+		display:flex;
+	}	
+}
+.teamSection-profileImage {
+	margin:0 0 @gutterNormal;
+	width:150px;
+	height:150px;
+	
+	// remove
+	background:#ddd;
+	
+	@media @desktop {
+		flex:0 0 150px;
+		margin:0 4em 0 0;
+	}
+}
+.teamSection-header {
+	font-size:@fontSizeH6;
+	margin:0;
+	text-transform:uppercase;
+}

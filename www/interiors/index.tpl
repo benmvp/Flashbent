@@ -6,7 +6,7 @@
 
 {block name='body'}
 	<h1>Services</h1>
-	<p>Flashbent can provide you with a range of services to suit a range of project needs. We are here to make your dreams a reality and assist you where we can.</p>
+	<p>Flashbent can provide you with a range of interior design services to suit a range of project needs. We are here to make your dreams a reality and assist you where we can.</p>
 	
 	<section class="serviceSection serviceSection-residential">
 		<div class="serviceSection-headerShell">
