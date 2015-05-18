@@ -1,1 +1,73 @@
 @import "vars";
+
+.mainLinks {
+	@media @desktop {
+		display:flex;
+		justify-content:space-between;
+	}	
+}
+.mainLinks-link {
+	background:center center;
+	background-size:cover;
+	display:block;
+	height:250px;
+	margin:0 0 @gutterLarge;
+	overflow:hidden;
+	position:relative;
+		
+	&:last-child {
+		margin:0;	
+	}
+	
+	@media @desktop {
+		flex:1;
+		height:450px;
+		margin:0 @gutterLarge 0 0;
+	}
+}
+.mainLinks-interiorsLink {
+	background-image:url(/assets/service-area-map.png);
+}
+.mainLinks-eventsLink {
+	background-image:url(/assets/service-area-map.png);
+}
+.mainLinks-shoppesLink {
+	background-image:url(/assets/service-area-map.png);
+}
+.mainLinks-contentShell {
+	background:rgba(0,0,0,.5);
+	bottom:0;
+	left:0;
+	padding:@gutterSmall;
+	position:absolute;
+	
+	@media @desktop {
+		bottom:-60px;
+		transition:bottom .5s;
+	
+		.mainLinks-link:hover & {
+			bottom:0;	
+		}
+	}
+}
+.mainLinks-contentHeader {
+	color:#fff;
+	font-size:@fontSizeH5;
+	margin:0 0 @gutterSmall;
+	text-align:center;
+	text-transform:uppercase;
+	
+	@media @desktop {
+	}
+}
+.mainLinks-description {
+	color:#fff;
+	display:block;
+	font-size:@fontSizeSmall;
+	font-style:italic;
+	text-align:center;
+
+	@media @desktop {
+		height:55px;
+	}
+}
