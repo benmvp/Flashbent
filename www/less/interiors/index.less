@@ -1,5 +1,56 @@
 @import "../vars";
 
+.portfolioCarousel {
+	height:350px;
+	list-style:none;
+	margin:0 auto @gutterLarge;
+	/*max-width:700px;*/
+	padding:0;
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	
+	border:1px solid #ddd;
+}
+.portfolioCarousel-slide {
+	background:center center;
+	background-size:cover;
+	display:none;
+	left:0;
+	height:100%;
+	position:absolute;
+	top:0;
+	width:100%;
+	
+	&:nth-child(1) {
+		background-image:url(/assets/interiors/alcf-bench-library.png);
+	}
+	&:nth-child(2) {
+		background-image:url(/assets/interiors/furniture-mashups-bedroom.png);
+	}
+	&:nth-child(3) {
+		background-image:url(/assets/interiors/furniture-mashups-nursery.png);
+	}
+	&:nth-child(4) {
+		background-image:url(/assets/interiors/kitchen-elevation.jpg);
+	}
+}
+.portfolioCarousel-slideActive {
+	display:block;	
+}
+.portfolioCarousel-slideText {
+	bottom:0;
+	background:rgba(0,0,0,.5);
+	display:block;
+	color:#fff;
+	font-size:@fontSizeSmall;
+	left:0;
+	padding:@gutterSmall;
+	position:absolute;
+	text-align:center;
+	width:100%;
+}
+
 .serviceSection-headerShell {
 	display:flex;
 	align-items:center;
@@ -45,4 +96,9 @@
 		margin:0;
 		padding:0;
 	}
+}
+.description {
+	border-top:1px solid #ddd;
+	margin-top:@gutterLarge;
+	padding-top:@gutterLarge;
 }

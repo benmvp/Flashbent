@@ -5,8 +5,20 @@
 {/block}
 
 {block name='body'}
-	<h1>Services</h1>
-	<p>Flashbent can provide you with a range of interior design services to suit a range of project needs. We are here to make your dreams a reality and assist you where we can.</p>
+	<ul class="portfolioCarousel">
+		<li class="portfolioCarousel-slide portfolioCarousel-slideActive">
+			<span class="portfolioCarousel-slideText">First portfolio image</span>
+		</li>
+		<li class="portfolioCarousel-slide">
+			<span class="portfolioCarousel-slideText">Second portfolio image</span>
+		</li>
+		<li class="portfolioCarousel-slide">
+			<span class="portfolioCarousel-slideText">Third portfolio image</span>
+		</li>
+		<li class="portfolioCarousel-slide">
+			<span class="portfolioCarousel-slideText">Fourth portfolio image</span>
+		</li>
+	</ul>
 	
 	<section class="serviceSection serviceSection-residential">
 		<div class="serviceSection-headerShell">
@@ -47,4 +59,6 @@
 			</div>
 		</div>
 	</section>
+	
+	<p class="description">Flashbent Interiors is an interior design firm in the Greater San Francisco Bay Area offering premium residential and commerciation interior design services. We specialize in clean, modern, and functional design. We can provide you with a range of interior design services to suit a range of project needs. We are here to make your dreams a reality and assist you where we can.</p>
 {/block}

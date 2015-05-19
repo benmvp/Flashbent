@@ -21,7 +21,7 @@
 	<body>
 		<div id="page">
 			<header id="header" class="header">
-				<a href="/">
+				<a href="/" class="header-logoLink">
 					<img class="header-logo" src="/assets/flashbent-logo-header.png" alt="Flashbent logo" />
 				</a><nav class="header-nav">
 					<ul class="header-navList">
@@ -51,7 +51,7 @@
 			<footer id="footer" class="footer">
 				<div class="footer-about">
 					<h3 class="footer-header">ABOUT</h3>
-					<p class="footer-aboutDesc">Flashbent Interiors is a design firm in the San Francisco Bay Area offering premium residential and commerciation interior design services. We specialize in clean, modern, and functional design.</p>
+					<p class="footer-aboutDesc">Flashbent is a design firm serving the Greater San Francisco Bay Area offering premium interior design and event coordiation services.</p>
 				</div>
 				<div class="footer-contact">
 					<h3 class="footer-header">CONTACT</h3>
