@@ -6,12 +6,12 @@
 	require_once($documentRoot . '/_libs/Utils/Url.class.php');
 	
 	\Utils\Template::render(
-		'services.tpl',
+		'kitchen-matte-package.tpl',
 		array(
-			'headTitle' => 'Interior Design Services | Flashbent',
-			'canonicalUrl' => \Utils\Url::siteUrl('interiors/services'),
+			'headTitle' => 'Kitchen Matte Interior Design Package | Flashbent',
+			'canonicalUrl' => \Utils\Url::siteUrl('interiors/kitchen-matte-package'),
 			'navListItem' => 'interiors',
-			'subnavListItem' => 'services'
+			'subnavListItem' => 'packages'
 		)
 	)
 ?>

@@ -18,9 +18,18 @@
 			<div class="packageSection-image"></div>
 			<div class="packageSection-content">
 				<ul class="packageSection-contentList">
-					<li>Semi-Gloss</li>
-					<li>Eggshell</li>
-					<li>Matte</li>
+					<li class="packageSection-packageShell">
+						<a href="/interiors/residential-semi-gloss-package">Semi-Gloss</a>
+						<p class="packageSection-packageDesc">This is a short description of the package</p>
+					</li>
+					<li class="packageSection-packageShell">
+						<a href="/interiors/residential-eggshell-package">Eggshell</a>
+						<p class="packageSection-packageDesc">This is a short description of the package which could also be two lines</p>
+					</li>
+					<li class="packageSection-packageShell">
+						<a href="/interiors/residential-matte-package">Matte</a>
+						<p class="packageSection-packageDesc">This is a short description of the package</p>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -35,9 +44,18 @@
 			<div class="packageSection-image"></div>
 			<div class="packageSection-content">
 				<ul class="packageSection-contentList">
-					<li>Semi-Gloss</li>
-					<li>Eggshell</li>
-					<li>Matte</li>
+					<li class="packageSection-packageShell">
+						<a href="/interiors/commercial-semi-gloss-package">Semi-Gloss</a>
+						<p class="packageSection-packageDesc">This is a short description of the package</p>
+					</li>
+					<li class="packageSection-packageShell">
+						<a href="/interiors/commercial-eggshell-package">Eggshell</a>
+						<p class="packageSection-packageDesc">This is a short description of the package</p>
+					</li>
+					<li class="packageSection-packageShell">
+						<a href="/interiors/commercial-matte-package">Matte</a>
+						<p class="packageSection-packageDesc">This is a short description of the package that can be two lines</p>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -52,9 +70,18 @@
 			<div class="packageSection-image"></div>
 			<div class="packageSection-content">
 				<ul class="packageSection-contentList">
-					<li>Semi-Gloss</li>
-					<li>Eggshell</li>
-					<li>Matte</li>
+					<li class="packageSection-packageShell">
+						<a href="/interiors/kitchen-semi-gloss-package">Semi-Gloss</a>
+						<p class="packageSection-packageDesc">This is a short description of the package</p>
+					</li>
+					<li class="packageSection-packageShell">
+						<a href="/interiors/kitchen-eggshell-package">Eggshell</a>
+						<p class="packageSection-packageDesc">This is a short description of the package</p>
+					</li>
+					<li class="packageSection-packageShell">
+						<a href="/interiors/kitchen-matte-package">Matte</a>
+						<p class="packageSection-packageDesc">This is a short description of the package</p>
+					</li>
 				</ul>
 			</div>
 		</div>

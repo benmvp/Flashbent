@@ -1,5 +1,5 @@
 {extends '../_layouts/main.tpl'}
 
 {block name='body'}
-	<h1>Services coming soon!</h1>
+	<h1>Commercial Matte Package coming soon!</h1>
 {/block}
